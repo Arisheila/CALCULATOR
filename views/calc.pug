@@ -1,0 +1,34 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  title Simple calculator
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT' crossorigin='anonymous')
+  link(rel='stylesheet' href='/index.css')
+section
+  .container()
+    #display
+    .buttons
+      .button.btn.btn-danger C
+      .button /
+      .button *
+      .button &larr;
+      .button 7
+      .button 8
+      .button 9
+      .button -
+      .button 4
+      .button 5
+      .button 6
+      .button +
+      .button 1
+      .button 2
+      .button 3
+      .button .
+      .button (
+      .button 0
+      .button )
+      #equal.button.btn.btn-success =
+script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8' crossorigin='anonymous')
+script(src='/index.js')
